@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 
 **Here are some ideas to get you started:**
 
@@ -53,6 +52,6 @@ For support, email us at [support@aeroandgeneral.com](mailto:support@aeroandgene
 
 Remember, at Aero & General Properties, we are more than just a company – we're a revolution in the digital real estate realm. 🧙‍♂️
 
----
 
-We believe in the might of innovation and the power of collaboration. Let's build the future of real estate, together.
+
+> We believe in the might of innovation and the power of collaboration. Let's build the future of real estate, together.
