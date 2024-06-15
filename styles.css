@@ -1,0 +1,295 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #002244;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+header img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    background: #004488;
+    color: #fff;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    color: #ffdd57;
+}
+
+/* Headings */
+h3 {
+    margin: 20px 0 10px;
+    padding: 0;
+    color: #333;
+    font-size: 1.75em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    color: #ffdd57;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+p {
+    color: #fff;
+}
+
+/* Links */
+a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code Blocks */
+pre {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Lists */
+ul, ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f4f4f4;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input, textarea {
+    border: none;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+button {
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Blockquotes */
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 20px 0;
+    padding: 10px 20px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+/* Notes and Summary */
+.note {
+    background: #eef5f9;
+    border-left: 10px solid #1e90ff;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.summary {
+    background: #f9f9f9;
+    border-left: 10px solid #ffa500;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+/* Partners List */
+.partners-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #888;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+}
